@@ -1,0 +1,26 @@
+# Virtual environments
+backend/venv310/
+backend/venv/
+
+# Python cache
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Spark checkpoints
+backend/checkpoint/
+backend/checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Redis dump
+dump.rdb
