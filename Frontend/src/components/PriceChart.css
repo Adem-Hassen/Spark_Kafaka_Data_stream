@@ -1,0 +1,90 @@
+.price-chart {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.custom-tooltip {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.custom-tooltip .label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #374151;
+  border-bottom: 1px solid #f3f4f6;
+  padding-bottom: 0.25rem;
+}
+
+.custom-tooltip p {
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+}
+
+.chart-info {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f3f4f6;
+}
+
+.info-text {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.no-data {
+  text-align: center;
+  color: #6b7280;
+  padding: 3rem 2rem;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-data p {
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+}
+
+.no-data .subtext {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+/* Recharts customizations */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #f3f4f6;
+}
+
+.recharts-text {
+  font-size: 0.75rem;
+  fill: #6b7280;
+}
+
+.recharts-legend-wrapper {
+  padding-top: 0.5rem;
+}
+
+.recharts-default-legend {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.recharts-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
